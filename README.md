@@ -27,7 +27,16 @@ All methods return a `VndbClient\Response` object, containing `->getType()` and 
 ./bin/vndb-client vndb:getbyid your_username your_password character 5
 ```
 
+## The VNDB Protocol
 
-        
+For details on the workings of this API, and for a description of the returned data, please check:
 
+        https://vndb.org/d11
 
+## Composer / Packagist
+
+The library is available on packagist.org as `joostfaassen/vndb-client-php`
+
+## License
+
+MIT
